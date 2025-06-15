@@ -1,0 +1,26 @@
+{
+  "name": "js-path-builder",
+  "version": "1.0.0",
+  "description": "Builder for paths.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -rf dist",
+    "updateLink": "npm run clean && tsc && npm rm js-path-builder -g && npm link"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamjak/js-path-builder.git"
+  },
+  "keywords": [
+    "path",
+    "builder"
+  ],
+  "author": "Tomáš Adamják",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/adamjak/js-path-builder/issues"
+  },
+  "homepage": "https://github.com/adamjak/js-path-builder#readme"
+}
