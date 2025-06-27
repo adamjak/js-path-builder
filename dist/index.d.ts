@@ -1,1 +1,1 @@
-export { PathBuilder } from './PathBuilder';
+export { UriPathBuilder } from './UriPathBuilder';
